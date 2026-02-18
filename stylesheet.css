@@ -1,0 +1,293 @@
+/* index.html Styling */
+
+
+body {
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+
+/* Nav Bar styling background colour, centring and size */
+nav {
+    background-color: #fbd623;
+    display: flex;
+    align-items: center;
+    height: 70px;
+   
+}
+
+
+/* Hero Image Styling */
+.heroImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Image Border */
+.heroImage img {
+    border: 3px solid #ffd000;
+    border-radius: 10px;
+}
+
+
+/* Navigation links styling, evenly spaced */
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+/* Removes link styling - Colour, underline */
+.navLinks a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Current page underline */
+.navLinks a.activePage {
+    text-decoration: underline; 
+}
+
+
+/* Main Text Header - Font Size, Underline, Centering */
+.mainText h1 {
+    margin-top: 60px;
+    font-size: 35px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* Paragraph Styles - Letter Spacing, Width, Line Height */
+.mainText p {
+    max-width: 1000px;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+
+/* Quick Links Section Header - Centering, Underline, Margining */
+.quickLinks h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+/* Quick Links List Style Remover */
+.quickLinks ul {
+    list-style: none;
+}
+
+/* Quick Links Link Styling + Centering */
+.quickLinks a{
+    color: rgb(4, 0, 253);
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Hover effect for Quick Links */
+.quickLinks a:hover {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+/* Steps.html */
+
+
+/* Steps List Styling */
+.stepsList {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+/* Header Styling for Steps List - Underline, Alignment and Margin */
+.stepsList h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+/* Steps List Text Width and Font Size */
+.stepsList li {
+    font-size: 23px;
+    width: 800px;
+}
+
+
+/* Pass Stamp Image Styling */
+.passImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Costs */
+
+/* Costs Page Main Header */
+.costsText h1 {
+    margin-top: 60px;
+    font-size: 27px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* Paragraph Styles - Letter Spacing, Width, Line Height */
+.costsText p {
+    max-width: 1000px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+
+/* Table styling - Font, Border, Spacing, Row Colours */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Colour every other row */
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* Styling the $5 Image */
+.costsImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Extra Information Container - for Steps.html & Restricted.html */
+.extraInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+/* Extra Info Header */
+.extraInfo h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+/* List for the extra information */
+.extraInfo li {
+    font-size: 23px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <---- Footer ----> */
+
+/* Main footer styling and container - Max width of site, item alignment */
+footer {
+    background-color: #fbd623;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+/* Footer Text */
+footer p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+/* Layout for contact info - Side by side, Align centre */
+.contactInfo {
+    display: flex;
+    color: rgb(2, 2, 2);
+    align-items: center;
+}
+
+/* White vertical line in between contact info */
+#separator {
+    width: 3px;
+    height: 39px;
+    margin: 0 20px;
+    background-color: rgb(0, 0, 0);
+}
